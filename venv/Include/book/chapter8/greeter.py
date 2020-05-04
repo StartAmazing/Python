@@ -9,7 +9,7 @@ def greeter(username: str):
 greeter('cindy')
 
 # 位置传参
-def describ_pet(pet_name:str, animal_type:str = 'dog'):
+def describ_pet(pet_name:str, animal_type:str='dog'):
     print("\nI have a {}.".format(animal_type))
     print("My {}'s name is {}".format(animal_type, pet_name.title()))
 
